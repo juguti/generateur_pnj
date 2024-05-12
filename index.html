@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="visu_face">
+        <img src="" id="tete" alt="r">
+        <img src="" id="yeux" alt="r">
+        <img src="" id="cheveux" alt="r">
+        <img src="" id="habits" alt="r">
+        <img src="" id="pantalon" alt="r">
+        <img src="" id="pilosite" alt="r">
+        <img src="" id="accessoire" alt="r">
+        <img src="" id="chaussures" alt="r">
+        
+    </div>
+    <div id="conf">
+        <div><input type="button" value="<" onclick="change_tete(-1)"> <t>peau</t> <input type="button" value=">" onclick="change_tete(1)"></div>
+        <div><input type="button" value="<" onclick="change_yeux(-1)"> <t>yeux</t> <input type="button" value=">" onclick="change_yeux(1)"></div>
+        <div><input type="button" value="<" onclick="change_cheveux(-1)"> <t>cheveux</t> <input type="button" value=">" onclick="change_cheveux(1)"></div>
+        <div><input type="button" value="<" onclick="change_habits(-1)"> <t>Habits</t> <input type="button" value=">" onclick="change_habits(1)"></div>
+        <div><input type="button" value="<" onclick="change_pantalon(-1)"> <t>pantalon</t> <input type="button" value=">" onclick="change_pantalon(1)"></div>
+        <div><input type="button" value="<" onclick="change_pilosite(-1)"> <t>pilosité</t> <input type="button" value=">" onclick="change_pilosite(1)"></div>
+        <div><input type="button" value="<" onclick="change_accessoire(-1)"> <t>accessoire</t> <input type="button" value=">" onclick="change_accessoire(1)"></div>
+        <div><input type="button" value="<" onclick="change_chaussures(-1)"> <t>chaussures</t> <input type="button" value=">" onclick="change_chaussures(1)"></div>
+        <br>
+        <input type="button" id="ran" value="Random" onclick="alea()">
+        <p id="code_pnj"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

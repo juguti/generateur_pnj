@@ -1,0 +1,55 @@
+body{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    background-image: url("FondPokedex.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optionnel : pour figer l'image pendant le défilement */
+}
+
+
+img{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    width: 256px;
+    height: auto;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 32px;
+}
+#conf{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    border: 4px black solid;
+    background-color: rgb(183, 183, 183);
+    padding: 16px;
+}
+
+.previous{
+    width: 18px;
+    height: auto;
+}
+
+input{
+    width: 30px;
+    height: auto;
+    border-radius: 100%;
+}
+t{
+    width: 100px;
+    display:inline-block;
+    height: auto;
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+#ran{
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+}
