@@ -102,14 +102,22 @@ function randint(min, max) {
   }
 
 function alea() {
-    image_tete.src =  "Generateur/Générateur/peau_Front/Tête"+randint(1,n_tetes)+".png";
-    image_yeux.src =  "Generateur/Générateur/yeux_Front/yeux"+randint(1,n_yeux)+".png";
-    image_cheveux.src =  "Generateur/Générateur/cheveux_Front/cheveux"+randint(1,n_cheveux)+".png";
-    image_habits.src =  "Generateur/Générateur/habits_Front/habits"+randint(1,n_habits)+".png";
-    image_pantalon.src =  "Generateur/Générateur/pantalon_Front/pantalon"+randint(1,n_pantalon)+".png";
-    image_pilosite.src =  "Generateur/Générateur/pilosité_Front/pilosité"+randint(1,n_pilosite)+".png";
-    image_accessoire.src =  "Generateur/Générateur/accessoire_Front/accessoire"+randint(1,n_accessoire)+".png";
-    image_chaussures.src =  "Generateur/Générateur/chaussures_Front/chaussures"+randint(1,n_chaussures)+".png";
+    index_tete = randint(1,n_tetes)
+    index_yeux = randint(1,n_yeux)
+    index_cheveux = randint(1,n_cheveux)
+    index_habits =randint(1,n_habits)
+    index_pantalon = randint(1,n_pantalon)
+    index_pilosite = randint(1,n_pilosite)
+    index_accessoire =randint(1,n_accessoire)
+    index_chaussures =randint(1,n_chaussures)
+    image_tete.src =  "Generateur/Générateur/peau_Front/Tête"+index_tete+".png";
+    image_yeux.src =  "Generateur/Générateur/yeux_Front/yeux"+index_yeux+".png";
+    image_cheveux.src =  "Generateur/Générateur/cheveux_Front/cheveux"+index_cheveux+".png";
+    image_habits.src =  "Generateur/Générateur/habits_Front/habits"+index_habits+".png";
+    image_pantalon.src =  "Generateur/Générateur/pantalon_Front/pantalon"+index_pantalon+".png";
+    image_pilosite.src =  "Generateur/Générateur/pilosité_Front/pilosité"+index_pilosite+".png";
+    image_accessoire.src =  "Generateur/Générateur/accessoire_Front/accessoire"+index_accessoire+".png";
+    image_chaussures.src =  "Generateur/Générateur/chaussures_Front/chaussures"+index_chaussures+".png";
     code()
 }
 alea()
