@@ -4,7 +4,13 @@ var index_tete = 1
 
 var code_p = document.getElementById("code_pnj");
 function code(){
-    code_p.innerText = "Code: " + String(index_tete) +","+ String(index_yeux)+","+ String(index_cheveux)+","+ String(index_habits)+","+ String(index_pantalon)+","+ String(index_pilosite)+","+ String(index_accessoire)+","+ String(index_chaussures)
+    var code_acc = String(index_accessoire)
+    if (image_accessoire.style.display == "none"){code_acc="none"}
+    var code_pilo = String(index_pilosite)
+    if (image_pilosite.style.display == "none"){code_pilo="none"}
+    var code_chev = String(index_cheveux)
+    if (image_cheveux.style.display == "none"){code_chev="none"}
+    code_p.innerText = "Code: " + String(index_tete) +","+ String(index_yeux)+","+ code_chev+","+ String(index_habits)+","+ String(index_pantalon)+","+ code_pilo+","+ code_acc+","+ String(index_chaussures)
 }
 
 function change_tete(i) {
@@ -108,7 +114,25 @@ function alea() {
 }
 alea()
 
-
+function plus_de_cheveux() {
+    if (image_cheveux.style.display != "none" || image_cheveux.style.display == "block"){
+        image_cheveux.style.display = "none"}
+    else{image_cheveux.style.display = "block"}
+    code()
+}
+function plus_de_accessoire() {
+    if (image_accessoire.style.display != "none" || image_accessoire.style.display == "block"){
+        image_accessoire.style.display = "none"}
+    else{image_accessoire.style.display = "block"}
+    code()
+}
+function plus_de_pilosite() {
+    if (image_pilosite.style.display != "none" || image_pilosite.style.display == "block"){
+        image_pilosite.style.display = "none"}
+    else{image_pilosite.style.display = "block"}
+    code()
+}
+    
 
 
 

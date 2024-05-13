@@ -20,14 +20,18 @@
         
     </div>
     <div id="conf">
-        <div class="para"><input type="button" value="<" onclick="change_tete(-1)"> <t>peau</t> <input type="button" value=">" onclick="change_tete(1)"></div>
-        <div class="para"><input type="button" value="<" onclick="change_yeux(-1)"> <t>yeux</t> <input type="button" value=">" onclick="change_yeux(1)"></div>
-        <div class="para"><input type="button" value="<" onclick="change_cheveux(-1)"> <t>cheveux</t> <input type="button" value=">" onclick="change_cheveux(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_tete(-1)"> <t>Peau</t> <input type="button" value=">" onclick="change_tete(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_yeux(-1)"> <t>Yeux</t> <input type="button" value=">" onclick="change_yeux(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_cheveux(-1)"> <t>Cheveux</t> <input type="button" value=">" onclick="change_cheveux(1)"></div>
         <div class="para"><input type="button" value="<" onclick="change_habits(-1)"> <t>Habits</t> <input type="button" value=">" onclick="change_habits(1)"></div>
-        <div class="para"><input type="button" value="<" onclick="change_pantalon(-1)"> <t>pantalon</t> <input type="button" value=">" onclick="change_pantalon(1)"></div>
-        <div class="para"><input type="button" value="<" onclick="change_pilosite(-1)"> <t>pilosité</t> <input type="button" value=">" onclick="change_pilosite(1)"></div>
-        <div class="para"><input type="button" value="<" onclick="change_accessoire(-1)"> <t>accessoire</t> <input type="button" value=">" onclick="change_accessoire(1)"></div>
-        <div class="para"><input type="button" value="<" onclick="change_chaussures(-1)"> <t>chaussures</t> <input type="button" value=">" onclick="change_chaussures(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_pantalon(-1)"> <t>Pantalon</t> <input type="button" value=">" onclick="change_pantalon(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_pilosite(-1)"> <t>Pilosité</t> <input type="button" value=">" onclick="change_pilosite(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_accessoire(-1)"> <t>Accessoire</t> <input type="button" value=">" onclick="change_accessoire(1)"></div>
+        <div class="para"><input type="button" value="<" onclick="change_chaussures(-1)"> <t>Chaussures</t> <input type="button" value=">" onclick="change_chaussures(1)"></div>
+        <div><input type="checkbox" id="cheveux_bool" checked onclick="plus_de_cheveux()">Cheuveux</div>
+        <div><input type="checkbox" id="pilosite_bool" checked onclick="plus_de_pilosite()">Pilosité</div>
+        <div><input type="checkbox" id="accessoire_bool" checked onclick="plus_de_accessoire()">Accessoire</div>
+        
         <br>
         <input type="button" id="ran" value="Random" onclick="alea()">
         <p id="code_pnj"></p>

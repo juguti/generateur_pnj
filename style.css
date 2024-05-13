@@ -19,6 +19,7 @@ img{
     left: 50%;
     transform: translate(-50%);
     margin-top: 32px;
+    display: block;
 }
 #conf{
     position:absolute;
