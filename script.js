@@ -43,7 +43,7 @@ function change_cheveux(i) {
 }
 
 var image_habits = document.getElementById("habits");
-var n_habits = 30
+var n_habits = 34
 var index_habits = 1
 
 function change_habits(i) {
@@ -65,7 +65,7 @@ function change_pantalon(i) {
 }
 
 var image_pilosite = document.getElementById("pilosite");
-var n_pilosite = 26
+var n_pilosite = 30
 var index_pilosite = 1
 
 function change_pilosite(i) {
@@ -76,7 +76,7 @@ function change_pilosite(i) {
 }
 
 var image_accessoire = document.getElementById("accessoire");
-var n_accessoire = 15
+var n_accessoire = 25
 var index_accessoire = 15
 
 function change_accessoire(i) {
